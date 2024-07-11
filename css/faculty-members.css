@@ -1,0 +1,44 @@
+
+:root {
+    --primaryColor: #05225B;
+    --secondaryColor: #2EB0FE;
+    --darkColor: #000;
+    --whiteColor: #fff;
+    --lightColor: #D1E7F5;
+}
+  
+.faculty-user{
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.21);
+    text-align: center;
+    padding: 20px;
+}
+
+.faculty-user img{
+    width: 225px;
+    height: 250px;
+}
+
+.faculty-member-name{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: var(--primaryColor);
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.message-header{
+    color: var(--secondaryColor);
+    font-size: 20px;
+}
+
+.faculty-message .writer-name{
+    font-weight: 600;
+    color: var(--primaryColor);
+}
+
+.faculty-message span{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
