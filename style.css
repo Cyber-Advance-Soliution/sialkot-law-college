@@ -9066,11 +9066,20 @@ ul {
   line-height: 35px;
 }
 
-.admission-criteia ul li, .admission-criteia p{
-   list-style: disc;
-   font-size: 18px !important;
-   line-height: 35px;
+.admission-criteia ul{
+  padding-top: 10px;
+}
 
+.admission-criteia ul li, .admission-criteia p {
+   list-style: none;
+   font-size: 16px !important;
+   line-height: 35px;
+  
+
+}
+.admission-criteia ol li{
+  font-size: 18px !important;
+padding-bottom: 15px;
 }
 p{
   font-size: 18px ;
