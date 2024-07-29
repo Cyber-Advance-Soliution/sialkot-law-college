@@ -9292,6 +9292,19 @@ p{
 }
 
 .rs-why-choose img{
-  height: 365px;
+  height: 405px;
   margin-top: -50px;
+  width: 365px;
+  object-fit: cover !important;
+}
+
+.faculty-user img{
+  margin-bottom: 10px !important;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+ a img.img-class{
+  height: 300px !important;
+  object-fit: cover !important;
 }
