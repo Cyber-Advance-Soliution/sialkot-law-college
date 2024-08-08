@@ -9308,3 +9308,75 @@ p{
   height: 300px !important;
   object-fit: cover !important;
 }
+
+
+/*/--- inquiry form page starts here ---/*/
+.inquiry-form-wrapper{
+  padding: 60px 0px;
+}
+
+.inquiry-form-card{
+  /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.7); */
+}
+
+.inquiry-form-card-header{
+  /* background-color: #05225B; */
+  padding: 10px 25px;
+}
+
+.inquiry-form-card-header h4{
+  text-transform: uppercase;
+  color: var(--primaryColor);
+  margin-bottom: 0px;
+  font-size: 24px;
+}
+
+.inquiry-form-card-body{
+  padding: 10px 25px 40px;
+}
+
+.inquiry-form-card-body label{
+  color: #505050;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.inquiry-form-card-body input,
+.inquiry-form-card-body select{
+  border: none;
+  background: #f5f5f5 !important;
+  border-radius: 0;
+  box-shadow: none !important;
+  height: 43px;
+  padding: 0 15px;
+}
+
+.inquiry-form-card-body textarea{
+  border: none;
+  background: #f5f5f5 !important;
+  border-radius: 0;
+  box-shadow: none !important;
+  padding: 10 15px;
+}
+
+.inquiry-form-card-body .btn-save{
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: var(--primaryColor);
+  margin-top: 15px;
+  border: none;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-weight: 600;
+  padding: 0 50px;
+  cursor: pointer;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+}
+
+.inquiry-form-card-body .btn-save:hover{
+  background: var(--secondaryColor);
+}
+/*/--- inquiry form page ends here ---/*/
