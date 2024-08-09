@@ -84,6 +84,7 @@ $(document).ready(function () {
 	/*-----------------------------------------------------------------------------------*/
 	/*	EFFECTS ON MENU TOGGLE
 	/*-----------------------------------------------------------------------------------*/ 
+	
 	$('a.rs-menu-toggle').on('click', function(e){
 		e.preventDefault();	
 		var menu_height = $('.rs-menu ul').height();

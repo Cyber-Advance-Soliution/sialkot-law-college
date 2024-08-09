@@ -435,6 +435,12 @@
     .home3 .rs-header .menu-area {
         background-color: var(--primaryColor);
     }
+
+    .rs-menu{
+        background-color: var(--primaryColor);
+        flex-direction: column;
+    }
+
     .home3 .rs-toolbar .rs-toolbar-left .welcome-message{
         float: none;
         display: inline-block;

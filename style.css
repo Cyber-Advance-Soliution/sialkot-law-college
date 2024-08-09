@@ -9379,4 +9379,21 @@ p{
 .inquiry-form-card-body .btn-save:hover{
   background: var(--secondaryColor);
 }
+
+
+.nav-btn{
+  background-color: #fff !important;
+  color: var(--primaryColor) !important;
+  border: none !important;
+  padding: 5px 25px;
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.nav-btn:hover{
+  color: #fff !important;
+  background-color: transparent !important;
+  border: 1px solid #fff !important;
+}
 /*/--- inquiry form page ends here ---/*/
